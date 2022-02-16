@@ -1,0 +1,39 @@
+PROCEDURE dot_product(v1,v2)
+var 
+
+v1 ,v2 array 
+x1,x2,y1,y2,z1,z2,ps integer
+
+begin
+
+v1 := [x1,y1,z1];
+v2 := [x2,y2,z2];
+for v1<>0 do
+for v2<>0 do 
+ps:= [(x1*x2)+(y1*y2)+(z1*z2)];
+write("the dot product of v1 and v2 is",ps);
+
+end 
+
+ALGORITHM Dot product
+v1,v2  array 
+n integer
+
+begin
+
+v1 := [x1,y1,z1];
+v2 := [x2,y2,z2];
+for n from 0 to n do
+read(x1,x2,y1,y2,z1,z2)
+dot_product(v1,v2)
+if ps=0 then
+write("v1 and v2 are orthogonal")
+else 
+write("v1 and v2 are not orthogonal")
+end If
+end 
+
+
+
+
+
